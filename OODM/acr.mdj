@@ -1,0 +1,257 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAF48CMXpIu2N+s=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration1",
+			"ownedElements": [
+				{
+					"_type": "UMLInteraction",
+					"_id": "AAAAAAF48CMXpIu3wU4=",
+					"_parent": {
+						"$ref": "AAAAAAF48CMXpIu2N+s="
+					},
+					"name": "Interaction1",
+					"ownedElements": [
+						{
+							"_type": "UMLSequenceDiagram",
+							"_id": "AAAAAAF48CMXpYu4g6o=",
+							"_parent": {
+								"$ref": "AAAAAAF48CMXpIu3wU4="
+							},
+							"name": "ACR_Portal",
+							"ownedViews": [
+								{
+									"_type": "UMLFrameView",
+									"_id": "AAAAAAF48CMXpYu5CKo=",
+									"_parent": {
+										"$ref": "AAAAAAF48CMXpYu4g6o="
+									},
+									"model": {
+										"$ref": "AAAAAAF48CMXpYu4g6o="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF48CMXpou6LEA=",
+											"_parent": {
+												"$ref": "AAAAAAF48CMXpYu5CKo="
+											},
+											"font": "Arial;13;0",
+											"left": 32.72998046875,
+											"top": 13,
+											"width": 69.63720703125,
+											"height": 13,
+											"text": "ACR_Portal"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF48CMXp4u7waM=",
+											"_parent": {
+												"$ref": "AAAAAAF48CMXpYu5CKo="
+											},
+											"font": "Arial;13;1",
+											"left": 13,
+											"top": 13,
+											"width": 14.72998046875,
+											"height": 13,
+											"text": "sd"
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 8,
+									"top": 8,
+									"width": 692,
+									"height": 592,
+									"nameLabel": {
+										"$ref": "AAAAAAF48CMXpou6LEA="
+									},
+									"frameTypeLabel": {
+										"$ref": "AAAAAAF48CMXp4u7waM="
+									}
+								},
+								{
+									"_type": "UMLSeqLifelineView",
+									"_id": "AAAAAAF48CRzcovLHCM=",
+									"_parent": {
+										"$ref": "AAAAAAF48CMXpYu4g6o="
+									},
+									"model": {
+										"$ref": "AAAAAAF48CRzcovKvTQ="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAF48CRzdIvMhTk=",
+											"_parent": {
+												"$ref": "AAAAAAF48CRzcovLHCM="
+											},
+											"model": {
+												"$ref": "AAAAAAF48CRzcovKvTQ="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAF48CRzdovNT88=",
+													"_parent": {
+														"$ref": "AAAAAAF48CRzdIvMhTk="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": -26,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAF48CRzdovOtt0=",
+													"_parent": {
+														"$ref": "AAAAAAF48CRzdIvMhTk="
+													},
+													"font": "Arial;13;1",
+													"left": 45,
+													"top": 87,
+													"width": 101.8544921875,
+													"height": 13,
+													"text": "Lifeline1: Actor1"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAF48CRzdovPBE8=",
+													"_parent": {
+														"$ref": "AAAAAAF48CRzdIvMhTk="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": -26,
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAF48CRzd4vQEu0=",
+													"_parent": {
+														"$ref": "AAAAAAF48CRzdIvMhTk="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": -26,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 40,
+											"top": 80,
+											"width": 111.8544921875,
+											"height": 25,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAF48CRzdovNT88="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAF48CRzdovOtt0="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAF48CRzdovPBE8="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAF48CRzd4vQEu0="
+											}
+										},
+										{
+											"_type": "UMLLinePartView",
+											"_id": "AAAAAAF48CRzd4vRtI4=",
+											"_parent": {
+												"$ref": "AAAAAAF48CRzcovLHCM="
+											},
+											"model": {
+												"$ref": "AAAAAAF48CRzcovKvTQ="
+											},
+											"font": "Arial;13;0",
+											"left": 96,
+											"top": 105,
+											"width": 1,
+											"height": 34
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 40,
+									"top": 40,
+									"width": 111.8544921875,
+									"height": 99,
+									"stereotypeDisplay": "icon",
+									"nameCompartment": {
+										"$ref": "AAAAAAF48CRzdIvMhTk="
+									},
+									"linePart": {
+										"$ref": "AAAAAAF48CRzd4vRtI4="
+									}
+								}
+							]
+						}
+					],
+					"participants": [
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAF48CRzcovKvTQ=",
+							"_parent": {
+								"$ref": "AAAAAAF48CMXpIu3wU4="
+							},
+							"name": "Lifeline1",
+							"represent": {
+								"$ref": "AAAAAAF48CRzcIvJ7os="
+							},
+							"isMultiInstance": false
+						}
+					]
+				},
+				{
+					"_type": "UMLActor",
+					"_id": "AAAAAAF48CQFxYvG7JQ=",
+					"_parent": {
+						"$ref": "AAAAAAF48CMXpIu2N+s="
+					},
+					"name": "Actor1"
+				}
+			],
+			"attributes": [
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAF48CRzcIvJ7os=",
+					"_parent": {
+						"$ref": "AAAAAAF48CMXpIu2N+s="
+					},
+					"name": "Role1",
+					"type": {
+						"$ref": "AAAAAAF48CQFxYvG7JQ="
+					}
+				}
+			]
+		}
+	]
+}
